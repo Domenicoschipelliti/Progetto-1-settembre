@@ -1,0 +1,119 @@
+/* Your styles here */
+
+
+/* corpo generale */
+
+body{
+    align-items: center;
+    text-align: center;
+}
+
+
+/* testata  */
+
+header{
+    max-width: 500px;
+    background-color: black; 
+    padding: 20px;
+}
+
+/* posizione titoli */
+h1 , h2{
+    width: 457px;
+    font-weight: bold; 
+    height: 30px;
+    color: #25a2c3;     
+    padding: 20px;
+    line-height:1.5rem;
+    text-align: center;
+    font-size: 20px;
+}
+/* posizioni paragrafi */
+p{
+    text-align: center;
+}
+
+
+/* posizionamento per acceentramento dei tag */
+h1>p {
+   
+    padding: 30px;
+    width: 400px;
+    height: 400px;
+    max-width: 500px;
+    text-align: center;
+    background-color: rgb(196, 194, 194);
+}
+
+
+/* bottoni spostamenti */
+.button{
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: #f04c2f;
+}
+
+/* forma immagine pc img 1 */
+#cerchio img{
+    border-radius:200px;
+            
+}
+/* margine logo */
+.logo{
+    margin: auto;
+    
+            
+}
+
+
+/* box rossa e gestione spazi */
+
+ .img{
+    display: inline-block;
+    width: 400px;
+    height: 250px;
+   border: 1px solid red;
+   background-color: red;
+   
+} 
+
+
+/* immagine img 2  */
+.pc{
+    border: 2px solid white;
+}
+#spot{
+    
+    display: inline-block;
+    width: 400px;
+    height: 250px;
+    border: 1px solid  rgb(121, 204, 252);
+    background-color:rgb(121, 204, 252)  ;
+    color: white;
+   
+}
+
+/* titolo conttataci */
+.color{
+    color: white;
+    width: 400px;
+    font-size: 30px;
+    padding: 10px;
+}
+
+/* sito epicode per farlo andare a capo */
+
+.fas{
+    display: block;
+}
+/* linea di distanza */
+hr{
+ 
+    color: white;
+    width: 50%;
+}
+/* anchor tag per il colore */
+a{
+    color: white;
+}
